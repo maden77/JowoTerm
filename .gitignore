@@ -1,0 +1,238 @@
+# .gitignore
+# File ini untuk mengabaikan file yang tidak perlu di Git
+
+# ==================== ANDROID ====================
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+local.properties
+gradle-app.setting
+
+# Signing files
+*.jks
+*.keystore
+*.key
+*.pem
+
+# Proguard
+proguard/
+proguard-project.txt
+proguard-rules.pro.bak
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+.cxx/
+.navigation/
+captures/
+.externalNativeBuild/
+.caches/
+
+# Keystore files
+debug.keystore
+release.keystore
+
+# ==================== JAVA ====================
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# ==================== GRADLE ====================
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+gradle/wrapper/gradle-wrapper.properties
+
+# ==================== GITHUB ====================
+.github/workflows/*.bak
+.github/backup/
+
+# ==================== IDE ====================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+gen/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+build/
+dist/
+
+# ==================== OS ====================
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.directory
+*.swp
+*.swo
+*.swn
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==================== TERMUX ====================
+# Termux specific
+.termux/
+.bash_history
+.bashrc
+.zsh_history
+.zshrc
+.oh-my-zsh/
+
+# ==================== JOBO ====================
+# Jowo specific
+*.jowo.bak
+*.jowo~
+examples/*.bak
+output.ll
+program
+jowo
+jowo_server
+jowo_secure
+jowo_simple
+jowo_debug
+jowo_v2
+jowo_min
+jowo_old
+
+# Build output
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ==================== LOGS & DATABASE ====================
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== BACKUPS ====================
+*.bak
+*.backup
+*.old
+*.orig
+*~
+*.swp
+*.swo
+
+# ==================== ENVIRONMENT ====================
+.env
+.env.local
+.env.production
+secrets.properties
+keystore.properties
+
+# ==================== TESTING ====================
+# Reports
+test-output/
+test-reports/
+coverage/
+*.html
+
+# ==================== DEPENDENCIES ====================
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# ==================== MISC ====================
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
